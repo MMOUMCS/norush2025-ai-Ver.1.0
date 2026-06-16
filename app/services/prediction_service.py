@@ -10,9 +10,9 @@ from ..utils.feature_utils import create_features_for_prediction
 from huggingface_hub import hf_hub_download
 
 # 1. Hugging Face 저장소 정보
-HF_REPO_ID = "gcanoca/SubwayCongestionPkl"
+HF_REPO_ID = "--secret--"
 # 2. 저장소에 있는 모델 파일의 정확한 이름
-MODEL_FILENAME = "train_congestion_model.pkl"
+MODEL_FILENAME = "--secret--.pkl"
 
 # 모델 로드 (서버 시작 시 한 번만)
 congestion_model = None
