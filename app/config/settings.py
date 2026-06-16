@@ -17,9 +17,9 @@ import os
 # API 키 등 설정값
 
 # 서울시 열린데이터 API KEY
-GENERAL_KEY = "4a646a43776c65653131367a4f594659"
-SUBWAY_KEY = "5a647a614c6c65653436786673534e"   # 지하철 실시간 인증키
-STATION_KEY = "426f696a5667636139376c54575463"
+GENERAL_KEY = "--secret--"
+SUBWAY_KEY = "--secret--"   # 지하철 실시간 인증키
+STATION_KEY = "--secret--"
 
 
 # 현재 파일(__file__)의 절대 경로를 얻습니다.
@@ -38,7 +38,7 @@ PROJECT_ROOT = os.path.abspath(os.path.join(CURRENT_DIR, '..', '..'))
 ## MODEL_DIR = os.path.join(PROJECT_ROOT, 'models')
 
 # 최종 모델 경로 (절대 경로)
-## MODEL_PATH = os.path.join(MODEL_DIR, MODEL_FILE_NAME) # <-- 이제 항상 프로젝트 루트를 기준으로 찾습니다.
+## MODEL_PATH = os.path.join(MODEL_DIR, MODEL_FILE_NAME) 
 
 # 모델 학습에 사용했던 변수 (환승역, 업무역)
 TRANSFER_STATION_LIST = ['신도림역', '사당역', '을지로입구역', '불암산역']
