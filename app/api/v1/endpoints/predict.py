@@ -1,4 +1,4 @@
-# 예측 API (predict_router.py 또는 유사한 파일)
+# 예측 API 
 
 import joblib
 import pandas as pd
